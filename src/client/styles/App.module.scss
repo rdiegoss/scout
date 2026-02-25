@@ -1,0 +1,19 @@
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loadingText {
+  color: var(--color-text-secondary);
+}
+
+.appContainer {
+  min-height: 100vh;
+  background: var(--color-bg-primary);
+}
+
+.screenContent {
+  padding-bottom: 60px;
+}

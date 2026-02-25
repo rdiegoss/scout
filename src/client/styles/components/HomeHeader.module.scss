@@ -1,0 +1,38 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-text-primary);
+  flex: 1;
+}
+
+.subtitle {
+  color: var(--color-text-secondary);
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.learningHint {
+  color: var(--color-text-tertiary);
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.offlineBadge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}

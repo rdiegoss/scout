@@ -1,0 +1,190 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "error": "Error",
+    "success": "Success",
+    "search": "Search",
+    "close": "Close",
+    "km": "km"
+  },
+  "nav": {
+    "home": "🏠 Home",
+    "search": "🔍 Search",
+    "categories": "📂 Categories",
+    "register": "➕ Register"
+  },
+  "onboarding": {
+    "welcome": "Welcome!",
+    "howToCall": "What should we call you?",
+    "namePlaceholder": "Your first name",
+    "nameLabel": "First name",
+    "nameRequired": "Please enter your name",
+    "start": "Get started",
+    "learningPreferences": "🧠 We'll learn your preferences over time"
+  },
+  "home": {
+    "defaultGreeting": "Hi! What do you need today?",
+    "greetingWithName": "Hi, {{name}}! 👋",
+    "personalizedRecommendations": "Personalized recommendations for you",
+    "searchPlaceholder": "🔍 Search services...",
+    "searchLabel": "Search services",
+    "categories": "Categories",
+    "recommendedForYou": "Recommended for you",
+    "forYou": "For You",
+    "trending": "Most Popular",
+    "exploreCategories": "Explore Categories",
+    "recentSearches": "Recent searches",
+    "aiInsight": "AI Insight",
+    "quickInterests": "Tap what interests you",
+    "noRecommendations": "No recommendations available yet.",
+    "noCategoryResults": "No services in this category.",
+    "aiActive": "AI active with TensorFlow.js",
+    "aiLoading": "Loading AI model...",
+    "confidence": "confidence",
+    "relevant": "relevant",
+    "highlights": "Highlights",
+    "highlightsSubtitle": "Top-rated professionals available in your area",
+    "newService": "New",
+    "unknownService": "Service",
+    "ratingsCount": "{{count}} ratings",
+    "match": {
+      "fromSearches": "🔍 From your searches",
+      "aiMatch": "🧠 AI Match",
+      "neighbors": "🏘️ Neighbors recommend",
+      "highlight": "⭐ Highlight",
+      "recentlyViewed": "👀 Recently viewed",
+      "aiSuggestion": "✨ AI Pick"
+    },
+    "categoryName": {
+      "reparos_domesticos": "Home Repairs",
+      "servicos_pessoais": "Personal Services",
+      "automotivo": "Automotive",
+      "construcao": "Construction",
+      "outros": "Other"
+    },
+    "insight": {
+      "newUser": "What do you need today?",
+      "newUserWithName": "{{name}}, what do you need today?",
+      "newUserDescription": "Tap your interests below and AI will personalize everything for you.",
+      "activeUser": "🧠 AI personalized for you",
+      "activeUserDescription": "We analyzed your {{count}} interactions to bring the best recommendations.",
+      "categoryAffinity": "🎯 You're interested in {{category}}",
+      "categoryAffinityDescription": "Based on your {{count}} interactions, AI prioritized professionals in this area.",
+      "intent": {
+        "renovation": {
+          "headline": "🏗️ Looks like you're renovating!",
+          "description": "AI detected renovation-related searches. We prioritized construction & repair professionals."
+        },
+        "moving": {
+          "headline": "📦 Moving soon?",
+          "description": "We detected you may be moving. Here are essential services for this moment."
+        },
+        "emergency": {
+          "headline": "🚨 Need urgent help?",
+          "description": "We identified a possible emergency. The fastest and top-rated professionals are on top."
+        },
+        "routine": {
+          "headline": "🔄 Your everyday services",
+          "description": "We prioritized the services you need most in your daily routine."
+        },
+        "exploration": {
+          "headline": "🔍 Discovering new professionals",
+          "description": "You're exploring options! We brought the top-rated ones for you."
+        }
+      }
+    }
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "E.g.: I need an urgent electrician...",
+    "label": "Search services",
+    "searchButton": "🔍",
+    "resultsLabel": "Search results",
+    "noResults": "No results found. Try another search.",
+    "whatsapp": "📱 WhatsApp"
+  },
+  "categories": {
+    "title": "Categories",
+    "loading": "Loading categories...",
+    "servicesCount": "{{count}} services",
+    "servicesLabel": "{{name}}, {{count}} services"
+  },
+  "serviceProfile": {
+    "detailsLabel": "Service details",
+    "notFound": "Service not found.",
+    "ratings": "{{count}} ratings",
+    "whatsappConfirmed": "✅ WhatsApp",
+    "whatsappUnconfirmed": "WhatsApp not confirmed",
+    "whatsappContact": "💬 Contact via WhatsApp",
+    "whatsappContactLabel": "Contact via WhatsApp",
+    "address": "📍 {{address}}",
+    "recentRatings": "Recent ratings",
+    "noRatings": "No ratings yet.",
+    "neighborRecommended": "🏘️ Recommended by neighbors",
+    "rateService": "Rate this service",
+    "commentPlaceholder": "Optional comment (max 500 characters)",
+    "commentLabel": "Rating comment",
+    "charCount": "{{current}}/{{max}}",
+    "submitting": "Submitting...",
+    "submitRating": "Submit rating",
+    "ratingSuccess": "✅ Rating submitted successfully!"
+  },
+  "registration": {
+    "title": "Register Service",
+    "nameLabel": "Provider name *",
+    "namePlaceholder": "E.g.: John Electrician",
+    "categoryLabel": "Category *",
+    "categoryPlaceholder": "Select a category",
+    "phoneLabel": "Phone *",
+    "phonePlaceholder": "(85) 99960-3335",
+    "whatsappLabel": "📱 This number has WhatsApp",
+    "addressLabel": "Address",
+    "addressPlaceholder": "Street, number, neighborhood, city",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Describe the services offered...",
+    "submit": "Register Service",
+    "submitting": "Saving...",
+    "successTitle": "Service registered!",
+    "successMessage": "The provider has been added and is now available to other users.",
+    "saveError": "Error saving. Please try again."
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "categoryRequired": "Category is required",
+    "phoneRequired": "Phone is required",
+    "phoneInvalid": "Invalid phone format"
+  },
+  "install": {
+    "bannerLabel": "Install app",
+    "message": "Install the app for quick access",
+    "dismiss": "Not now",
+    "dismissLabel": "Close install banner",
+    "install": "Install",
+    "installLabel": "Install app"
+  },
+  "share": {
+    "copied": "✅ Link copied!",
+    "shared": "✅ Shared!",
+    "error": "❌ Error sharing",
+    "share": "📤 Recommend to a friend",
+    "label": "Recommend service to a friend"
+  },
+  "whatsapp": {
+    "confirmed": "WhatsApp",
+    "unconfirmed": "WhatsApp not confirmed",
+    "contact": "💬 Contact via WhatsApp",
+    "contactLabel": "Contact via WhatsApp",
+    "confirmButton": "✅ Confirm WhatsApp",
+    "confirmed_feedback": "✅ Confirmed!",
+    "confirmLabel": "Confirm WhatsApp"
+  },
+  "recommendation": {
+    "wellRated": "Well rated in your area",
+    "nearby": "Close to you",
+    "fromHistory": "From your search history",
+    "profileMatch": "Matches your profile"
+  }
+}

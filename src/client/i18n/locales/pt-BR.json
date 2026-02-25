@@ -1,0 +1,190 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "back": "Voltar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "error": "Erro",
+    "success": "Sucesso",
+    "search": "Buscar",
+    "close": "Fechar",
+    "km": "km"
+  },
+  "nav": {
+    "home": "🏠 Início",
+    "search": "🔍 Buscar",
+    "categories": "📂 Categorias",
+    "register": "➕ Cadastrar"
+  },
+  "onboarding": {
+    "welcome": "Bem-vindo!",
+    "howToCall": "Como podemos te chamar?",
+    "namePlaceholder": "Seu primeiro nome",
+    "nameLabel": "Primeiro nome",
+    "nameRequired": "Por favor, digite seu nome",
+    "start": "Começar",
+    "learningPreferences": "🧠 Vamos aprender suas preferências aos poucos"
+  },
+  "home": {
+    "defaultGreeting": "Olá! O que você precisa hoje?",
+    "greetingWithName": "Olá, {{name}}! 👋",
+    "personalizedRecommendations": "Recomendações personalizadas para você",
+    "searchPlaceholder": "🔍 Buscar serviços...",
+    "searchLabel": "Buscar serviços",
+    "categories": "Categorias",
+    "recommendedForYou": "Recomendados para você",
+    "forYou": "Para Você",
+    "trending": "Mais Procurados",
+    "exploreCategories": "Explorar Categorias",
+    "recentSearches": "Buscas recentes",
+    "aiInsight": "Insight da IA",
+    "quickInterests": "Toque no que te interessa",
+    "noRecommendations": "Nenhuma recomendação disponível ainda.",
+    "noCategoryResults": "Nenhum serviço nesta categoria.",
+    "aiActive": "IA ativa com TensorFlow.js",
+    "aiLoading": "Carregando modelo de IA...",
+    "confidence": "confiança",
+    "relevant": "relevante",
+    "highlights": "Destaques",
+    "highlightsSubtitle": "Os melhores profissionais disponíveis na região",
+    "newService": "Novo",
+    "unknownService": "Serviço",
+    "ratingsCount": "{{count}} avaliações",
+    "match": {
+      "fromSearches": "🔍 Das suas buscas",
+      "aiMatch": "🧠 Match IA",
+      "neighbors": "🏘️ Vizinhos indicam",
+      "highlight": "⭐ Destaque",
+      "recentlyViewed": "👀 Visto recentemente",
+      "aiSuggestion": "✨ Sugestão IA"
+    },
+    "categoryName": {
+      "reparos_domesticos": "Reparos Domésticos",
+      "servicos_pessoais": "Serviços Pessoais",
+      "automotivo": "Automotivo",
+      "construcao": "Construção",
+      "outros": "Outros"
+    },
+    "insight": {
+      "newUser": "O que você precisa hoje?",
+      "newUserWithName": "{{name}}, o que você precisa hoje?",
+      "newUserDescription": "Toque nos seus interesses abaixo e a IA vai personalizar tudo para você.",
+      "activeUser": "🧠 IA personalizada para você",
+      "activeUserDescription": "Analisamos suas {{count}} interações para trazer as melhores recomendações.",
+      "categoryAffinity": "🎯 Você tem interesse em {{category}}",
+      "categoryAffinityDescription": "Baseado nas suas {{count}} interações, a IA priorizou profissionais dessa área.",
+      "intent": {
+        "renovation": {
+          "headline": "🏗️ Parece que você está reformando!",
+          "description": "A IA identificou buscas relacionadas a reforma. Priorizamos profissionais de construção e reparos."
+        },
+        "moving": {
+          "headline": "📦 Mudança à vista?",
+          "description": "Detectamos que você pode estar se mudando. Mostramos serviços essenciais para esse momento."
+        },
+        "emergency": {
+          "headline": "🚨 Precisa de ajuda urgente?",
+          "description": "Identificamos uma possível emergência. Os profissionais mais rápidos estão no topo."
+        },
+        "routine": {
+          "headline": "🔄 Seus serviços do dia-a-dia",
+          "description": "Priorizamos os serviços que você mais precisa no dia-a-dia."
+        },
+        "exploration": {
+          "headline": "🔍 Descobrindo novos profissionais",
+          "description": "Você está explorando opções! Trouxemos os mais bem avaliados para você."
+        }
+      }
+    }
+  },
+  "search": {
+    "title": "Buscar",
+    "placeholder": "Ex: preciso de um eletricista urgente...",
+    "label": "Buscar serviços",
+    "searchButton": "🔍",
+    "resultsLabel": "Resultados da busca",
+    "noResults": "Nenhum resultado encontrado. Tente outra busca.",
+    "whatsapp": "📱 WhatsApp"
+  },
+  "categories": {
+    "title": "Categorias",
+    "loading": "Carregando categorias...",
+    "servicesCount": "{{count}} serviços",
+    "servicesLabel": "{{name}}, {{count}} serviços"
+  },
+  "serviceProfile": {
+    "detailsLabel": "Detalhes do serviço",
+    "notFound": "Serviço não encontrado.",
+    "ratings": "{{count}} avaliações",
+    "whatsappConfirmed": "✅ WhatsApp",
+    "whatsappUnconfirmed": "WhatsApp não confirmado",
+    "whatsappContact": "💬 Contato via WhatsApp",
+    "whatsappContactLabel": "Contato via WhatsApp",
+    "address": "📍 {{address}}",
+    "recentRatings": "Avaliações recentes",
+    "noRatings": "Nenhuma avaliação ainda.",
+    "neighborRecommended": "🏘️ Recomendado por vizinhos",
+    "rateService": "Avaliar este serviço",
+    "commentPlaceholder": "Comentário opcional (máx. 500 caracteres)",
+    "commentLabel": "Comentário da avaliação",
+    "charCount": "{{current}}/{{max}}",
+    "submitting": "Enviando...",
+    "submitRating": "Enviar avaliação",
+    "ratingSuccess": "✅ Avaliação enviada com sucesso!"
+  },
+  "registration": {
+    "title": "Cadastrar Serviço",
+    "nameLabel": "Nome do prestador *",
+    "namePlaceholder": "Ex: João Eletricista",
+    "categoryLabel": "Categoria *",
+    "categoryPlaceholder": "Selecione uma categoria",
+    "phoneLabel": "Telefone *",
+    "phonePlaceholder": "(85) 99960-3335",
+    "whatsappLabel": "📱 Este número possui WhatsApp",
+    "addressLabel": "Endereço",
+    "addressPlaceholder": "Rua, número, bairro, cidade",
+    "descriptionLabel": "Descrição",
+    "descriptionPlaceholder": "Descreva os serviços oferecidos...",
+    "submit": "Cadastrar Serviço",
+    "submitting": "Salvando...",
+    "successTitle": "Serviço cadastrado!",
+    "successMessage": "O prestador foi adicionado e já está disponível para outros usuários.",
+    "saveError": "Erro ao salvar. Tente novamente."
+  },
+  "validation": {
+    "nameRequired": "Nome é obrigatório",
+    "categoryRequired": "Categoria é obrigatória",
+    "phoneRequired": "Telefone é obrigatório",
+    "phoneInvalid": "Formato de telefone inválido"
+  },
+  "install": {
+    "bannerLabel": "Instalar aplicativo",
+    "message": "Instale o app para acesso rápido",
+    "dismiss": "Agora não",
+    "dismissLabel": "Fechar banner de instalação",
+    "install": "Instalar",
+    "installLabel": "Instalar aplicativo"
+  },
+  "share": {
+    "copied": "✅ Link copiado!",
+    "shared": "✅ Compartilhado!",
+    "error": "❌ Erro ao compartilhar",
+    "share": "📤 Indicar para amigo",
+    "label": "Indicar serviço para amigo"
+  },
+  "whatsapp": {
+    "confirmed": "WhatsApp",
+    "unconfirmed": "WhatsApp não confirmado",
+    "contact": "💬 Contato via WhatsApp",
+    "contactLabel": "Contato via WhatsApp",
+    "confirmButton": "✅ Confirmar WhatsApp",
+    "confirmed_feedback": "✅ Confirmado!",
+    "confirmLabel": "Confirmar WhatsApp"
+  },
+  "recommendation": {
+    "wellRated": "Bem avaliado na região",
+    "nearby": "Próximo de você",
+    "fromHistory": "Categoria do seu histórico",
+    "profileMatch": "Compatível com seu perfil"
+  }
+}

@@ -1,0 +1,71 @@
+.section {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--color-text-primary);
+}
+
+.starRow {
+  margin-bottom: 12px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.charCount {
+  font-size: 12px;
+  color: var(--color-text-tertiary);
+  margin: 4px 0 12px;
+  text-align: right;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--color-bg-tertiary);
+  cursor: not-allowed;
+
+  &.active {
+    background: var(--color-accent);
+    cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.success {
+  text-align: center;
+  padding: 24px;
+  color: var(--color-success);
+  font-weight: 600;
+}
+
+.successIcon {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  background: var(--color-surface, #fff);
+  border-top: 1px solid var(--color-border, #e5e7eb);
+  z-index: 100;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px 8px;
+  color: var(--color-text-secondary, #6b7280);
+  font-weight: 400;
+
+  &[data-active='true'] {
+    color: var(--color-accent, #6366f1);
+    font-weight: 600;
+  }
+}

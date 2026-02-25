@@ -1,0 +1,12 @@
+node_modules
+.git
+.gitignore
+*.md
+.env*
+.node-version
+nixpacks.toml
+supabase
+scripts
+src/__tests__
+vitest.config.ts
+.vscode
