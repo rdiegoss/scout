@@ -20,7 +20,15 @@ A live diagnostic panel exposing the TensorFlow.js runtime state: which embeddin
 <img width="371" height="673" alt="image" src="https://github.com/user-attachments/assets/584197e8-efb5-4f6b-84c9-47b07db53992" />
 
 
+## What's Left to Complete
 
+Address similarity — partially makes sense, but the real gap is deeper: the registration form saves latitude: 0, longitude: 0 for every service. The proximityScore() function in RecommendationEngine exists and is weighted at 35%, but it's computing distance from (0, 0) to (0, 0) for everything — it's effectively dead. The fix would be capturing the user's GPS on open and the service's GPS on registration.
+
+Missing translations — several t() calls have PT-BR defaultValue fallbacks hardcoded:
+
+home.learningPreferences → '📚 Aprendendo suas preferências...'
+common.clearSearch → 'Limpar'
+home.offline → '📡 Offline' These should be proper keys in en.json / pt-BR.json.
 
 ## Prerequisites
 
