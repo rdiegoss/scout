@@ -4,15 +4,19 @@ AI-powered local service discovery. A PWA that uses TensorFlow.js to generate se
 
 Home:
 The main discovery feed. Uses your search history and location to rank nearby service providers through a weighted scoring of vector similarity, geographic proximity, and behavioral compatibility — all computed on-device.
+
 <img width="395" height="670" alt="image" src="https://github.com/user-attachments/assets/9f867f2d-f169-43f2-a24e-5f01729ac30c" />
+
 <img width="377" height="655" alt="image" src="https://github.com/user-attachments/assets/c8a1ab3f-664f-4f2d-99ad-bcb9e4036327" />
 
 Register:
 Lets any user submit a new local service provider to the shared database. New entries are immediately vectorized by the TF.js embedding model and indexed in the local vector store, making them searchable in real time.
+
 <img width="373" height="670" alt="image" src="https://github.com/user-attachments/assets/171d437f-a2f7-4f8d-badc-812976df76bb" />
 
 AI Engine:
 A live diagnostic panel exposing the TensorFlow.js runtime state: which embedding model is active, how many services have been indexed, and the current tensor memory footprint (numTensors, numBytes) — refreshed every 3 seconds directly from tf.memory().
+
 <img width="371" height="673" alt="image" src="https://github.com/user-attachments/assets/584197e8-efb5-4f6b-84c9-47b07db53992" />
 
 
